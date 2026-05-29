@@ -7,7 +7,7 @@ package com.devpro.android58_day10
 // ========== MAIN ==========
 fun main() {
     println("╔══════════════════════════════════════╗")
-    println("║     DEMO KOTLIN CƠ BẢN - DAY 10    ║")
+    println("║     DEMO KOTLIN CƠ BẢN - DAY 10      ║")
     println("╚══════════════════════════════════════╝")
 }
 
