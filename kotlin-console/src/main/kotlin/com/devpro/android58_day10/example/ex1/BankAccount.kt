@@ -1,4 +1,4 @@
-package com.devpro.android58_day10.example
+package com.devpro.android58_day10.example.ex1
 
 class BankAccount (private val owner:String, initBalance:Double){
     private var balance = if (initBalance >= 0) initBalance else 0.0

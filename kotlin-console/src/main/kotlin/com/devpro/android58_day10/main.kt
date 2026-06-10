@@ -3,7 +3,7 @@ package com.devpro.android58_day10
 import com.devpro.android58_day10.classtype.data_class.Constants
 import com.devpro.android58_day10.classtype.data_class.DemoEnum
 import com.devpro.android58_day10.classtype.data_class.DemoSealed
-import com.devpro.android58_day10.example.BankAccount
+import com.devpro.android58_day10.example.ex1.BankAccount
 import com.devpro.android58_day10.utils.MyExtendFunction.isPrime
 import com.devpro.android58_day10.utils.MyExtendFunction.openDoor
 
