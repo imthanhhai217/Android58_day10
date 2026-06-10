@@ -3,6 +3,7 @@ package com.devpro.android58_day10
 import com.devpro.android58_day10.classtype.data_class.Constants
 import com.devpro.android58_day10.classtype.data_class.DemoEnum
 import com.devpro.android58_day10.classtype.data_class.DemoSealed
+import com.devpro.android58_day10.example.BankAccount
 import com.devpro.android58_day10.utils.MyExtendFunction.isPrime
 import com.devpro.android58_day10.utils.MyExtendFunction.openDoor
 
@@ -16,7 +17,6 @@ fun main() {
     println("╔══════════════════════════════════════╗")
     println("║     DEMO KOTLIN CƠ BẢN - DAY 11      ║")
     println("╚══════════════════════════════════════╝")
-
 
 //    val wallet = Wallet(100.0)
 //
@@ -44,10 +44,27 @@ fun main() {
 //    println("Constants: USER_NAME = ${Constants.USER_NAME}, USER_AGE = ${Constants.USER_AGE}")
 
 
-    val demoCar = Car("Toyota", "Camry")
-    demoCar.start()
-    demoCar.openDoor()
+//    val demoCar = Car("Toyota", "Camry")
+//    demoCar.start()
+//    demoCar.openDoor()
+//
+//    val number = 17
+//    println("$number is prime: ${number.isPrime()}")
 
-    val number = 17
-    println("$number is prime: ${number.isPrime()}")
+    ex1()
+}
+
+fun ex1() {
+    val bankAccount = BankAccount("HaiNe",-5.0)
+    bankAccount.getBalance()
+
+    bankAccount.deposit(100.0)
+    bankAccount.getBalance()
+
+    bankAccount.withdraw(30.0)
+    bankAccount.getBalance()
+
+    bankAccount.withdraw(100.0) // Thử rút nhiều hơn số dư
+    bankAccount.getBalance()
+
 }
