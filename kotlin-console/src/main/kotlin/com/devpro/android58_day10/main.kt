@@ -12,4 +12,13 @@ fun main() {
     println("╚══════════════════════════════════════╝")
 
 
+    val wallet = Wallet(100.0)
+
+    val dog = Dog("Buddy")
+    dog.makeSound()
+
+    val cardPayment = CardPayment()
+
+    val cashPayment = CashPayment()
+
 }
