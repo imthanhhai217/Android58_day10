@@ -9,7 +9,7 @@ abstract class Vehicle(protected val brand: String, protected val model: String)
     abstract fun stop()
 }
 
-class Car(brand: String, model: String) : Vehicle(brand, model), PaymentMethod {
+class Car (brand: String, model: String) : Vehicle(brand, model), PaymentMethod {
     override fun stop() {
         println("Car is stopping")
     }
@@ -24,4 +24,6 @@ class Car(brand: String, model: String) : Vehicle(brand, model), PaymentMethod {
         // Giả lập thanh toán thành công
         return true
     }
+
+    fun getInfo() = "$brand $model"
 }
